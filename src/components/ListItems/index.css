@@ -1,0 +1,14 @@
+* {
+  box-sizing: border-box;
+}
+.thumbnail-image {
+  height: 100px;
+  width: 100px;
+  margin: 8px;
+}
+.b {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  margin: 0px;
+}

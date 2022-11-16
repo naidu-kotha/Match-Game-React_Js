@@ -1,0 +1,67 @@
+.win-card-bg {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/match-game-score-card-sm-bg.png');
+  background-size: cover;
+  padding: 20px;
+}
+.win-img {
+  width: 70%;
+  margin-top: 150px;
+  /* border-top-left-radius: 20px;
+  border-top-right-radius: 20px; */
+}
+.win-heading {
+  font-family: 'roboto';
+  color: #ffffff;
+  font-size: 22px;
+  font-weight: 500;
+}
+.win-score {
+  font-family: 'roboto';
+  color: #ffffff;
+  font-size: 30px;
+  font-weight: 600;
+  margin-top: 0;
+}
+.play-again-button {
+  background-color: #cf60c8;
+  color: #ffffff;
+  height: 48px;
+  width: 150px;
+  border-radius: 10px;
+  align-self: center;
+  padding: 5px;
+  align-items: center;
+  border: none;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.reset-img {
+  padding: 5px;
+}
+@media only screen and (min-width: 768px) {
+  .win-img {
+    width: 85%;
+    height: 400px;
+    margin-top: 150px;
+    /* border-top-left-radius: 20px;
+  border-top-right-radius: 20px; */
+  }
+}
+@media only screen and (min-width: 992px) {
+  .win-card-bg {
+    background-image: url('https://assets.ccbp.in/frontend/react-js/match-game-score-card-lg-bg.png');
+    background-size: cover;
+    max-width: 70%;
+    margin: 40px;
+  }
+  .win-img {
+    width: 80%;
+    margin-top: 300px;
+    height: 80%;
+  }
+}
