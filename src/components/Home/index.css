@@ -75,3 +75,9 @@
 .display-image {
   width: 80%;
 }
+
+@media screen and (min-width: 768px) {
+    .display-image {
+        width: 50%;
+    }
+}
